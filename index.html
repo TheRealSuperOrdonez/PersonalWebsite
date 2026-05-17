@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Ordonez</title>
+    <meta name="description" content="Diego Ordonez is a University of Pennsylvania Mathematical Economics student exploring finance, data analysis, and global economic policy.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/Shield_of_the_University_of_Pennsylvania.svg.png">
+</head>
+<body class="home-page">
+    <div class="scroll-progress" aria-hidden="true">
+        <span class="scroll-progress__bar" id="scroll-progress-bar"></span>
+    </div>
+
+    <header class="site-header" id="top">
+        <nav class="top-nav">
+            <a class="brand" href="index.html">Diego Ordonez</a>
+            <div class="top-nav__links" data-scrollspy-nav>
+                <a href="research.html">Research</a>
+                <a href="podcast.html">Podcast</a>
+                <a href="https://www.linkedin.com/in/diegoordonez24/" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a class="button button--ghost button--small" href="CV/Ordonez-Diego-Résumé-Public.pdf" target="_blank" rel="noreferrer">CV</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section-shell" data-scroll-target id="hero">
+            <div class="hero__copy" data-reveal>
+                <p class="eyebrow hero__eyebrow">UPenn / Mathematical Economics / Statistics &amp; Data Science</p>
+                <h1 class="hero__name">Diego Ordonez</h1>
+                <p class="hero__lede">
+                    I'm Diego Ordonez, a student at the University of Pennsylvania studying Mathematical Economics with a
+                    minor in Statistics &amp; Data Science. My work spans risk and regulatory analysis,
+                    research on monetary policy, credit access, and portfolio optimization, and economic podcasting.
+                </p>
+                <div class="hero__actions">
+                    <a class="button" href="CV/Ordonez-Diego-Résumé-Public.pdf" target="_blank" rel="noreferrer">Open CV</a>
+                </div>
+                <div class="hero__stats">
+                    <article class="stat-card">
+                        <span class="stat-card__value">PwC Chile</span>
+                        <span class="stat-card__label">Basel III, regulatory reporting, and compliance testing in Santiago</span>
+                    </article>
+                    <article class="stat-card">
+                        <span class="stat-card__value">Fed Challenge</span>
+                        <span class="stat-card__label">Analyzing inflation, labor markets, and monetary policy</span>
+                    </article>
+                    <article class="stat-card">
+                        <span class="stat-card__value">Penn IBEC Podcast</span>
+                        <span class="stat-card__label">Hosting macro-finance conversations and economic analysis</span>
+                    </article>
+                </div>
+            </div>
+
+            <div class="hero__visual" data-reveal>
+                <figure class="hero-portrait">
+                    <img src="images/legacy_photographics_27185710_9_080223_1W4A0684.JPG" alt="Diego Ordonez smiling outdoors in a light blue shirt.">
+                </figure>
+                <div class="hero__visual-details">
+                    <article class="hero__detail">
+                        <span>Based in</span>
+                        <strong>Philadelphia</strong>
+                    </article>
+                    <article class="hero__detail">
+                        <span>Current work</span>
+                        <strong>Research Assistant, Fed Challenge,</strong>
+                        <strong>Penn IBEC</strong>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-shell project-feature" id="research" data-scroll-target>
+            <div class="project-feature__intro" data-reveal>
+                <p class="eyebrow">Featured project</p>
+                <h2>Machine Learning for Portfolio Optimization</h2>
+                <div class="project-feature__tags">
+                    <span>Spring 2026</span>
+                    <span>Portfolio Optimization</span>
+                </div>
+                <p class="project-feature__takeaway">
+                    The paper walks through the full workflow from signal engineering and PCA to
+                    model comparison and out-of-sample long-short portfolio construction, with the
+                    key result that forecast fit and portfolio quality do not always point to the same model.
+                </p>
+                <div class="hero__actions">
+                    <a class="button" href="research.html">Browse All Research</a>
+                    <a class="button button--ghost" href="Documents/ML_Optimization_Final.pdf" target="_blank" rel="noreferrer">View Paper</a>
+                </div>
+            </div>
+            <div class="project-feature__aside" data-reveal>
+                <article class="project-feature__snapshot">
+                    <span>Project snapshot</span>
+                    <strong>205,376 stock-month observations across 10,058 U.S. equities</strong>
+                    <p>
+                        The analysis compares Linear Regression, Ridge, Lasso, Random Forest,
+                        and Gradient Boosting, then converts those predictions into industry-neutral portfolios.
+                    </p>
+                </article>
+                <div class="project-feature__stats">
+                    <article class="project-feature__stat">
+                        <span>Models</span>
+                        <strong>5 compared</strong>
+                        <p>From linear baselines to tree-based methods.</p>
+                    </article>
+                    <article class="project-feature__stat">
+                        <span>Method</span>
+                        <strong>PCA + ranking</strong>
+                        <p>Signals are compressed, standardized, and ranked within industry.</p>
+                    </article>
+                    <article class="project-feature__stat">
+                        <span>Takeaway</span>
+                        <strong>Fit is not everything</strong>
+                        <p>Ridge led on risk-adjusted performance while Gradient Boosting led on return.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-shell podcast-showcase" id="podcast" data-scroll-target>
+            <div class="podcast-showcase__copy" data-reveal>
+                <p class="eyebrow">Featured Podcast Episode</p>
+                <h2>Macro Meets Business</h2>
+                <p>
+                    Macro Meets Business is Penn IBEC's podcast on the macro forces behind real business decisions.
+                    It brings together conversations on policy, markets, trade, and the institutions shaping the global economy.
+                </p>
+                <div class="podcast-showcase__actions">
+                    <a class="button" href="podcast.html">Browse All Episodes</a>
+                    <a class="button button--ghost" href="http://pennibec.com/" target="_blank" rel="noreferrer">Penn IBEC</a>
+                </div>
+            </div>
+            <div class="podcast-showcase__media" data-reveal>
+                <div class="video-frame">
+                    <iframe
+                        src="https://www.youtube.com/embed/videoseries?si=SYApWWR5xYptij_L&amp;list=PLJg1V_W0HDkJW1xRELLbOYy5Aybhy08Yw"
+                        title="Macro Meets Business playlist"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-layout section-shell" id="resume-map" data-scroll-target>
+            <aside class="resume-rail" data-reveal>
+                <div class="resume-rail__card">
+                    <p class="eyebrow">Jump to section</p>
+                    <a href="#education">Education</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#leadership">Leadership</a>
+                    <a href="#coursework">Coursework + Skills</a>
+                    <a href="#awards">Awards + Interests</a>
+                    <a class="button button--ghost button--small resume-rail__button" href="CV/Ordonez-Diego-Résumé-Public.pdf" target="_blank" rel="noreferrer">Open CV PDF</a>
+                </div>
+            </aside>
+
+            <div class="resume-flow">
+                <article class="resume-card" id="education" data-scroll-target data-nav-group="resume-map" data-reveal>
+                    <div class="section-heading">
+                        <div class="section-heading__spacer" aria-hidden="true"></div>
+                        <h2>Education</h2>
+                    </div>
+                    <div class="entry-grid">
+                        <section class="entry-card entry-card--wide">
+                            <div class="entry-card__topline">
+                                <h3>University of Pennsylvania</h3>
+                                <span>Philadelphia, PA</span>
+                            </div>
+                            <p class="entry-card__title">B.A. in Mathematical Economics • Minor in Statistics &amp; Data Science</p>
+                            <p class="entry-card__meta">College of Arts and Sciences • Expected May 2028</p>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="resume-card" id="experience" data-scroll-target data-nav-group="resume-map" data-reveal>
+                    <div class="section-heading">
+                        <div class="section-heading__spacer" aria-hidden="true"></div>
+                        <h2>Experience</h2>
+                    </div>
+                    <div class="timeline">
+                        <section class="timeline-item">
+                            <span class="timeline-item__date">Summer 2025</span>
+                            <div class="timeline-item__body">
+                                <div class="entry-card__topline">
+                                    <h3>Advisory Intern • PwC Chile, Risk &amp; Regulatory Services</h3>
+                                    <span>Santiago, Chile</span>
+                                </div>
+                                <ul class="detail-list">
+                                    <li>
+                                        Supported Chilean banks as they transitioned toward Basel III and updated CMF
+                                        banking regulations across risk and regulatory reporting systems.
+                                    </li>
+                                    <li>Reviewed SQL scripts and validated data pipelines to protect reporting integrity.</li>
+                                    <li>Performed compliance testing on financial datasets and communicated findings to clients.</li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="timeline-item">
+                            <span class="timeline-item__date">Summer 2024</span>
+                            <div class="timeline-item__body">
+                                <div class="entry-card__topline">
+                                    <h3>Summer Intern • Premier College Prep</h3>
+                                    <span>Ambler, PA</span>
+                                </div>
+                                <ul class="detail-list">
+                                    <li>
+                                        Tutored students in SAT and ACT preparation while building individualized study
+                                        plans grounded in diagnostics, performance trends, and practical test strategy.
+                                    </li>
+                                    <li>Designed targeted math, reading, and testing instruction for individual students.</li>
+                                    <li>Implemented Excel spreadsheets to streamline office inventory management.</li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="timeline-item">
+                            <span class="timeline-item__date">Summer 2023</span>
+                            <div class="timeline-item__body">
+                                <div class="entry-card__topline">
+                                    <h3>Research Assistant • Swarthmore College Department of Economics</h3>
+                                    <span>Swarthmore, PA</span>
+                                </div>
+                                <ul class="detail-list">
+                                    <li>
+                                        Conducted research on alternative financial services and their role in credit access
+                                        for underserved populations under Professor Maria Pia Olivero.
+                                    </li>
+                                    <li>Collected and analyzed data using Stata to support empirical research.</li>
+                                    <li>Synthesized academic literature and contributed to supervised research discussions.</li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="resume-card" id="leadership" data-scroll-target data-nav-group="resume-map" data-reveal>
+                    <div class="section-heading">
+                        <div class="section-heading__spacer" aria-hidden="true"></div>
+                        <h2>Leadership and activities</h2>
+                    </div>
+                    <div class="entry-grid">
+                        <section class="entry-card entry-card--wide">
+                            <div class="entry-card__topline">
+                                <h3>Penn International Business and Economics Club</h3>
+                                <span>Chair of Economic Analysis • Oct 2024 - Present</span>
+                            </div>
+                            <p>
+                                Produce macroeconomic reports on global trends, contribute analysis to finance-based
+                                discussions, and host podcast episodes with leaders working across macro-finance and policy.
+                            </p>
+                        </section>
+                        <section class="entry-card">
+                            <div class="entry-card__topline">
+                                <h3>Penn College Fed Challenge Team</h3>
+                                <span>Analyst • Mar 2026 - Present</span>
+                            </div>
+                            <p>Analyze inflation, labor markets, and current monetary policy to build recommendations around the Fed's dual mandate.</p>
+                        </section>
+                        <section class="entry-card">
+                            <div class="entry-card__topline">
+                                <h3>Argentina@Penn</h3>
+                                <span>Co-President • Jan 2026 - Present</span>
+                            </div>
+                            <p>Co-lead club programming, funding, and budgeting while building campus partnerships around Argentine culture.</p>
+                        </section>
+                        <section class="entry-card">
+                            <div class="entry-card__topline">
+                                <h3>Penn Science High School Journal</h3>
+                                <span>Managing Editor • Sep 2025 - Present</span>
+                            </div>
+                            <p>Lead a team of editors reviewing scientific papers and help refine clarity, structure, and analytical rigor before publication.</p>
+                        </section>
+                        <section class="entry-card">
+                            <div class="entry-card__topline">
+                                <h3>Penn Undergraduate Economics Society</h3>
+                                <span>Academic Committee Member • Oct 2024 - Present</span>
+                            </div>
+                            <p>Build presentations on alternative financial services, SNAP benefits, and growth differences across Argentina, Japan, and the United States.</p>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="resume-card" id="coursework" data-scroll-target data-nav-group="resume-map" data-reveal>
+                    <div class="section-heading">
+                        <div class="section-heading__spacer" aria-hidden="true"></div>
+                        <h2>Coursework and skills</h2>
+                    </div>
+                    <div class="two-column-panels">
+                        <section class="entry-card">
+                            <h3>Relevant coursework</h3>
+                            <div class="chip-cloud">
+                                <span>Calculus III</span>
+                                <span>Linear Algebra</span>
+                                <span>Differential Equations</span>
+                                <span>Firms and the Macroeconomy</span>
+                                <span>Microeconomic Theory</span>
+                                <span>Macroeconomic Theory</span>
+                                <span>Probability</span>
+                                <span>Inference</span>
+                                <span>Modern Data Mining</span>
+                                <span>Big Data Analytics</span>
+                                <span>Enabling Technologies</span>
+                            </div>
+                        </section>
+                        <section class="entry-card">
+                            <h3>Toolkit</h3>
+                            <div class="chip-cloud chip-cloud--accent">
+                                <span>Python</span>
+                                <span>Java</span>
+                                <span>Stata</span>
+                                <span>R</span>
+                                <span>SQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Microsoft Office</span>
+                                <span>Data Processing</span>
+                                <span>Data Analysis</span>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="resume-card" id="awards" data-scroll-target data-nav-group="resume-map" data-reveal>
+                    <div class="section-heading">
+                        <div class="section-heading__spacer" aria-hidden="true"></div>
+                        <h2>Awards, interests, and languages</h2>
+                    </div>
+                    <div class="two-column-panels">
+                        <section class="entry-card">
+                            <h3>Awards</h3>
+                            <ul class="detail-list">
+                                <li>National Hispanic Recognition Award</li>
+                                <li>AP Scholar with Distinction</li>
+                            </ul>
+                            <h3>Interests</h3>
+                            <div class="chip-cloud">
+                                <span>Soccer</span>
+                                <span>Running</span>
+                                <span>Biking</span>
+                                <span>Guitar</span>
+                                <span>Video Editing</span>
+                                <span>Puzzles</span>
+                                <span>Cars and Racing</span>
+                                <span>Planes</span>
+                            </div>
+                        </section>
+                        <section class="entry-card">
+                            <h3>Languages</h3>
+                            <div class="language-pills">
+                                <span>English • Native</span>
+                                <span>Spanish • Native</span>
+                                <span>French • Conversational</span>
+                                <span>Italian • Conversational</span>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p class="site-footer__line">
+            <span class="site-footer__item">&copy; 2026 Diego Ordonez</span>
+            <span class="site-footer__item">Philadelphia, PA</span>
+            <span class="site-footer__item site-footer__email-wrap">
+                <a href="mailto:dordonez@sas.upenn.edu">dordonez@sas.upenn.edu</a>
+                <img class="site-footer__gif" src="images/correo21t.gif" alt="" aria-hidden="true">
+            </span>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
