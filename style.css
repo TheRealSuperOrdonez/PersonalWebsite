@@ -147,9 +147,8 @@ body.research-page .section-shell {
     grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
     align-items: start;
     gap: clamp(2rem, 4vw, 4rem);
-    min-height: calc(100vh - 7rem);
     padding-top: clamp(2rem, 4vw, 4rem);
-    padding-bottom: 4rem;
+    padding-bottom: clamp(2.5rem, 4vw, 3.25rem);
     border-bottom: 1px solid var(--panel-border);
 }
 
